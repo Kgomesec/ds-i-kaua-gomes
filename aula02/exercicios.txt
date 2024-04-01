@@ -1,0 +1,10 @@
+Exercicios Java 
+
+1 - Crie um método que receba duas strings e compare as duas e retorne uma das seguintes mensagens: 
+Caso sejam iguais retorne "As palavras X e Y são iguais" 
+Caso sejam diferentes exiba "As palavras X e Y são diferentes"
+Substitua X e Y pelas palavras.
+
+2 - Utilizando um método que receba uma frase faça com que ele identifique alguma palavra em especifico. Exemplo: "Eu sou um desenvolvedor senhora", faço com que identifique a palavra "desenvolvedor" e me retorne a seguinte mensagem:
+
+"A frase 'Eu sou um desenvolvedor senhora' contem a palavra 'desenvolvedor'"
