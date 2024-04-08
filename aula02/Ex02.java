@@ -11,15 +11,21 @@ public class Ex02 {
         System.out.println("Digite uma frase: ");
         String frase = scanner.nextLine();
 
-        contemPalavraChave(palavraChave, frase);
+        String res = contemPalavraChave(palavraChave, frase);
+
+        System.out.println();
+        System.out.println(res);
+
+        scanner.close();
     }
 
     public static String contemPalavraChave(String palavraChave, String frase) {
-        if (frase.contains(palavraChave)) {
-            return "AAAAAAAAAAAAAAAAAAAA";
+        // tirar case-sensitive
+        if (frase.toLowerCase().contains(palavraChave.toLowerCase())) {
+            return "A frase '" + frase + "' contem a palavra '" + palavraChave + "'";
         }
         else {
-            return "falfijg";
+            return "A frase '" + frase + "' não contem a palavra '" + palavraChave + "'";
         }
     }
 }
