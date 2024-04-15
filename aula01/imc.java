@@ -1,3 +1,5 @@
+package aula01;
+
 import java.util.Scanner;
 
 public class imc {
@@ -34,5 +36,7 @@ public class imc {
         }
         
         System.out.println("O imc de " + nome + " é: IMC = " + imc + "\nClassificação: " + classificacao);
+
+        myObj.close();
     }
 }

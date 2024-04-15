@@ -10,5 +10,6 @@ class input {
         msg = myObj.nextLine();
 
         System.out.println(msg);
+        myObj.close();
     }
 }
